@@ -35,7 +35,9 @@ console.log("Mi chiamo", myName);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-
+const num1 = 12;
+const num2 = 20;
+console.log("Il risultato di 12 + 20 è ", num1 + num2);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
