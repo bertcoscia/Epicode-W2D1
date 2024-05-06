@@ -55,8 +55,10 @@ console.log("Il valore della variabile x è: ", x);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-myName = "Coscia";
-console.log("Il mio cognome:", myName); /* non si può riassegnare una variabile const, in questo caso la console del browser restituisce l'errore "invalid assignment to const 'myName'" */
+/* myName = "Coscia";
+console.log("Il mio cognome:", myName); non si può riassegnare una variabile const, in questo caso la console del browser restituisce l'errore "invalid assignment to const 'myName'"
+per riassegnare la variabile myName, avrei dovuto dichiararla con il costrutto let */
+
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
@@ -64,7 +66,8 @@ console.log("Il mio cognome:", myName); /* non si può riassegnare una variabile
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-
+const y = 4;
+console.log("Il risultato di 4-12 è ", y - x);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
