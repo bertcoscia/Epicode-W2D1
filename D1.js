@@ -13,11 +13,19 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const stringa = "Questa è una stringa di prova"; /* il tipo stringa consiste in testo, delimitato da apici, sia doppi che singoli. */
+const numero = 26; /* il tipo numero consiste, come dice il nome, in numeri sia interi che decimali. Non si devono mettere gli apici, se lo si fa il numero viene considerato come testo (stringa) */
+const booleanVero = true;
+const booleanFalso = false; /* il tipo booleano ha solo due valori, true e false, e serve a verificare la veridicità o meno di una determinata condizione */
+const esempioAssenzaVolutaValore = null; /* il valore null si utilizza per segnalare l'assenza volontaria di un valore. Nella logica booleana consiste in una condizione di false */
+let esempioNonDefinito /* in una situazione come questa qui, in cui non viene attribuito un valore ad una variabile, il suo valore è undefined */
+
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -25,11 +33,15 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+
+
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
@@ -38,11 +50,16 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+/* myName = "Coscia";
+console.log(myName); */
+
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -51,3 +68,4 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
