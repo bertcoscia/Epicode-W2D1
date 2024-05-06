@@ -77,3 +77,7 @@ console.log("Il risultato di 4-12 è ", y - x);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const name1 = "john";
+const name2 = "John";
+console.log("'john' è diverso da 'John'?", name1 !== name2); /* avrei anche potuto scrivere ("'john' è uguale a 'John'?", name1 === name2) */
+console.log("Se trasformo 'John' in lowercase, allora le due variabili saranno uguali?", name1 === name2.toLowerCase());
