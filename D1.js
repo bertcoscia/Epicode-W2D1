@@ -55,8 +55,8 @@ console.log("Il valore della variabile x è: ", x);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-/* myName = "Coscia";
-console.log(myName); */
+myName = "Coscia";
+console.log("Il mio cognome:", myName); /* non si può riassegnare una variabile const, in questo caso la console del browser restituisce l'errore "invalid assignment to const 'myName'" */
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
