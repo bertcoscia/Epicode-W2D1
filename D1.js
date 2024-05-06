@@ -18,7 +18,7 @@ const numero = 26; /* il tipo numero consiste, come dice il nome, in numeri sia 
 const booleanVero = true;
 const booleanFalso = false; /* il tipo booleano ha solo due valori, true e false, e serve a verificare la veridicità o meno di una determinata condizione */
 const esempioAssenzaVolutaValore = null; /* il valore null si utilizza per segnalare l'assenza volontaria di un valore. Nella logica booleana consiste in una condizione di false */
-let esempioNonDefinito /* in una situazione come questa qui, in cui non viene attribuito un valore ad una variabile, il suo valore è undefined */
+let esempioNonDefinito; /* in una situazione come questa qui, in cui non viene attribuito un valore ad una variabile, il suo valore è undefined */
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
@@ -59,7 +59,6 @@ console.log("Il valore della variabile x è: ", x);
 console.log("Il mio cognome:", myName); non si può riassegnare una variabile const, in questo caso la console del browser restituisce l'errore "invalid assignment to const 'myName'"
 per riassegnare la variabile myName, avrei dovuto dichiararla con il costrutto let */
 
-
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
@@ -80,4 +79,4 @@ console.log("Il risultato di 4-12 è ", y - x);
 const name1 = "john";
 const name2 = "John";
 console.log("'john' è diverso da 'John'?", name1 !== name2); /* avrei anche potuto scrivere ("'john' è uguale a 'John'?", name1 === name2) */
-console.log("Se trasformo 'John' in lowercase, allora le due variabili saranno uguali?", name1 === name2.toLowerCase());
+console.log("Se trasformo 'John' in lowercase, allora le due variabili saranno uguali?", name1.toLowerCase() === name2.toLowerCase());
