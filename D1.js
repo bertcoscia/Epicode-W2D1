@@ -45,7 +45,8 @@ console.log("Il risultato di 12 + 20 è ", num1 + num2);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-
+const x = 12;
+console.log("Il valore della variabile x è: ", x);
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
